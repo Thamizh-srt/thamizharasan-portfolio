@@ -166,7 +166,7 @@ const Index = () => {
 
         <div className="text-center z-10 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight transform transition-all duration-1000 hover:scale-105">
-            Alex <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent animate-pulse">Johnson</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent animate-pulse">Thamizharasan</span>
           </h1>
           
           {/* Animated Typewriter Tagline */}
@@ -454,7 +454,7 @@ const Index = () => {
       <footer className="py-8 px-4 border-t border-border bg-muted/30">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-muted-foreground hover:text-foreground transition-colors duration-300">
-            © 2024 Alex Johnson. Built with passion and lots of coffee ☕
+            © 2024 Thamizharasan. Built with passion and lots of coffee ☕
           </p>
         </div>
       </footer>
