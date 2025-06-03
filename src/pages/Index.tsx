@@ -183,7 +183,7 @@ const Index = () => {
               size="lg"
               className="transition-all duration-300 transform hover:scale-105 hover:-rotate-1 hover:border-primary"
             >
-              <a href="https://drive.google.com/file/d/1gB0BlQJtlX1d6hAv2hBSxPzAu9Se44iT/view?usp=drive_link" target="_blank">Download Resume</a>
+              <a href="https://drive.google.com/file/d/1mi3LxO7gs0niaJYXXIF6gu3QnMKvUtbk/view?usp=drive_link" target="_blank">Download Resume</a>
             </Button>
           </div>
           
