@@ -45,18 +45,18 @@ const Index = () => {
   };
 
   const skills = [
-    { name: "HTML5", level: "Expert", color: "bg-foreground", icon: "./../../public/images/html.png" },
-    { name: "Css", level: "Expert", color: "bg-foreground", icon: "./../../public/images/css.png" },
-    { name: "SCSS", level: "Expert", color: "bg-foreground", icon: "./../../public/images/sass.svg" },
-    { name: "JavaScript", level: "Expert", color: "bg-foreground", icon: "./../../public/images/javascript.png" },
-    { name: "Php", level: "Advanced", color: "bg-foreground", icon: "./../../public/images/php.png" },
-    { name: "Laravel", level: "Advanced", color: "bg-foreground", icon: "./../../public/images/laravel.png" },
-    { name: "Bootstrap", level: "Expert", color: "bg-foreground", icon: "./../../public/images/bootstrap.png" },
-    { name: "jQuery", level: "Expert", color: "bg-foreground", icon: "./../../public/images/jquery.svg" },
-    { name: "Angular JS", level: "Expert", color: "bg-foreground", icon: "./../../public/images/angularjs.svg" },
-    { name: "MySQL", level: "Advanced", color: "bg-foreground", icon: "./../../public/images/mysql.svg" },
-    { name: "Tailwind CSS", level: "Intermediate", color: "bg-foreground", icon: "./../../public/images/tailwind.svg" },
-    { name: "React.js", level: "Intermediate", color: "bg-foreground", icon: "./../../public/images/react.png" }
+    { name: "HTML5", level: "Expert", color: "bg-foreground", icon: "./images/html.png" },
+    { name: "Css", level: "Expert", color: "bg-foreground", icon: "./images/css.png" },
+    { name: "SCSS", level: "Expert", color: "bg-foreground", icon: "./images/sass.svg" },
+    { name: "JavaScript", level: "Expert", color: "bg-foreground", icon: "./images/javascript.png" },
+    { name: "Php", level: "Advanced", color: "bg-foreground", icon: "./images/php.png" },
+    { name: "Laravel", level: "Advanced", color: "bg-foreground", icon: "./images/laravel.png" },
+    { name: "Bootstrap", level: "Expert", color: "bg-foreground", icon: "./images/bootstrap.png" },
+    { name: "jQuery", level: "Expert", color: "bg-foreground", icon: "./images/jquery.svg" },
+    { name: "Angular JS", level: "Expert", color: "bg-foreground", icon: "./images/angularjs.svg" },
+    { name: "MySQL", level: "Advanced", color: "bg-foreground", icon: "./images/mysql.svg" },
+    { name: "Tailwind CSS", level: "Intermediate", color: "bg-foreground", icon: "./images/tailwind.svg" },
+    { name: "React.js", level: "Intermediate", color: "bg-foreground", icon: "./images/react.png" }
   ];
 
   const projects = [
@@ -65,28 +65,28 @@ const Index = () => {
       description: "Developed a task management platform that helps users stay organized with intelligent checklists, reminders, and productivity- focused features.",
       tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
       demo: "https://sitespedia.com",
-      image: "../../public/images/sitespedia.png"
+      image: "./images/sitespedia.png"
     },
     {
       title: "Memorial",
       description: "A virtual space to honor the memories of a loved one.A web platform that allows users to create personalized online memorials for loved ones.",
       tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
       demo: "https://memorial.website",
-      image: "../../public/images/memorial.png"
+      image: "./images/memorial.png"
     },
     {
       title: "Commentslink",
       description: "Global comment system that improves discussion on websites and connects conversations across the web.",
       tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
       demo: "https://comments.link",
-      image: "../../public/images/commentslink.png"
+      image: "./images/commentslink.png"
     },
     {
       title: "Timeline",
       description: "Timeline application allowing for chronological event display Built a timeline app where users can add detailed events, displayed in the order they occurred.",
       tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
       demo: "https://timeline.page",
-      image: "../../public/images/timeline.png"
+      image: "./images/timeline.png"
     }
   ];
 
