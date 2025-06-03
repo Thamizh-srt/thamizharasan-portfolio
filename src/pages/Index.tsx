@@ -276,8 +276,7 @@ const Index = () => {
                   </div>
                   <div className="flex space-x-4 pt-4">
                     <Button variant="outline" size="sm" className="hover:bg-muted hover:border-primary hover:text-primary transition-all duration-300 transform hover:scale-105">
-                      <ExternalLink size={16} className="mr-2" />
-                      Live Demo
+                    <a href={project.demo} target="_blank">Live Demo</a>                      
                     </Button>
                   </div>
                 </CardContent>
