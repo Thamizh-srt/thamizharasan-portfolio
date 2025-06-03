@@ -19,7 +19,7 @@ const Index = () => {
 
   // Typewriter effect for tagline
   const [displayedText, setDisplayedText] = useState("");
-  const fullText = "Full Stack Developer & UI/UX Enthusiast";
+  const fullText = "Full Stack Developer";
   
   useEffect(() => {
     let index = 0;
@@ -45,91 +45,85 @@ const Index = () => {
   };
 
   const skills = [
-    { name: "React", level: "Expert", color: "bg-blue-500", icon: "⚛️" },
-    { name: "TypeScript", level: "Advanced", color: "bg-blue-600", icon: "📘" },
-    { name: "Node.js", level: "Advanced", color: "bg-green-500", icon: "🟢" },
-    { name: "Python", level: "Intermediate", color: "bg-yellow-500", icon: "🐍" },
-    { name: "AWS", level: "Intermediate", color: "bg-orange-500", icon: "☁️" },
-    { name: "PostgreSQL", level: "Advanced", color: "bg-indigo-500", icon: "🗄️" },
-    { name: "Docker", level: "Intermediate", color: "bg-cyan-500", icon: "🐳" },
-    { name: "GraphQL", level: "Advanced", color: "bg-pink-500", icon: "📊" }
+    { name: "HTML5", level: "Expert", color: "bg-foreground", icon: "./../../public/images/html.png" },
+    { name: "Css", level: "Expert", color: "bg-foreground", icon: "./../../public/images/css.png" },
+    { name: "SCSS", level: "Expert", color: "bg-foreground", icon: "./../../public/images/sass.svg" },
+    { name: "JavaScript", level: "Expert", color: "bg-foreground", icon: "./../../public/images/javascript.png" },
+    { name: "Php", level: "Advanced", color: "bg-foreground", icon: "./../../public/images/php.png" },
+    { name: "Laravel", level: "Advanced", color: "bg-foreground", icon: "./../../public/images/laravel.png" },
+    { name: "Bootstrap", level: "Expert", color: "bg-foreground", icon: "./../../public/images/bootstrap.png" },
+    { name: "jQuery", level: "Expert", color: "bg-foreground", icon: "./../../public/images/jquery.svg" },
+    { name: "Angular JS", level: "Expert", color: "bg-foreground", icon: "./../../public/images/angularjs.svg" },
+    { name: "MySQL", level: "Advanced", color: "bg-foreground", icon: "./../../public/images/mysql.svg" },
+    { name: "Tailwind CSS", level: "Intermediate", color: "bg-foreground", icon: "./../../public/images/tailwind.svg" },
+    { name: "React.js", level: "Intermediate", color: "bg-foreground", icon: "./../../public/images/react.png" }
   ];
 
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with React, Node.js, and Stripe integration. Features include user authentication, product management, and real-time inventory tracking.",
-      tech: ["React", "Node.js", "PostgreSQL", "Stripe", "Redux"],
-      demo: "https://demo-link.com",
-      github: "https://github.com/username/ecommerce",
-      image: "photo-1486312338219-ce68d2c6f44d"
+      title: "Sitespedia",
+      description: "Developed a task management platform that helps users stay organized with intelligent checklists, reminders, and productivity- focused features.",
+      tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
+      demo: "https://sitespedia.com",
+      image: "../../public/images/sitespedia.png"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      tech: ["React", "TypeScript", "Socket.io", "MongoDB"],
-      demo: "https://demo-link.com",
-      github: "https://github.com/username/taskmanager",
-      image: "photo-1461749280684-dccba630e2f6"
+      title: "Memorial",
+      description: "A virtual space to honor the memories of a loved one.A web platform that allows users to create personalized online memorials for loved ones.",
+      tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
+      demo: "https://memorial.website",
+      image: "../../public/images/memorial.png"
     },
     {
-      title: "Weather Analytics Dashboard",
-      description: "Data visualization dashboard displaying weather patterns and analytics with interactive charts and forecasting capabilities.",
-      tech: ["Python", "Django", "D3.js", "PostgreSQL"],
-      demo: "https://demo-link.com",
-      github: "https://github.com/username/weather-dashboard",
-      image: "photo-1488590528505-98d2b5aba04b"
+      title: "Commentslink",
+      description: "Global comment system that improves discussion on websites and connects conversations across the web.",
+      tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
+      demo: "https://comments.link",
+      image: "../../public/images/commentslink.png"
     },
     {
-      title: "AI Chat Application",
-      description: "Real-time chat application with AI integration, featuring natural language processing and intelligent responses.",
-      tech: ["React", "OpenAI API", "WebSocket", "Express"],
-      demo: "https://demo-link.com",
-      github: "https://github.com/username/ai-chat",
-      image: "photo-1498050108023-c5249f4df085"
+      title: "Timeline",
+      description: "Timeline application allowing for chronological event display Built a timeline app where users can add detailed events, displayed in the order they occurred.",
+      tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
+      demo: "https://timeline.page",
+      image: "../../public/images/timeline.png"
     }
   ];
 
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2022 - Present",
-      description: "Lead development of scalable web applications serving 100k+ users. Implemented microservices architecture and improved system performance by 40%."
+      title: "Freelance Web Developer",
+      company: "Technest India Solution",
+      period: "2022 - 2023",
+      description: "I built responsive web applications using React.js, and styled them with Bootstrap. I also added login and registration features by connecting with mock APIs."
     },
     {
-      title: "Frontend Developer",
-      company: "StartupXYZ",
-      period: "2020 - 2022",
-      description: "Built responsive web applications using React and TypeScript. Collaborated with design team to implement pixel-perfect UIs and improve user experience."
+      title: "Full Stack Developer Trainee",
+      company: "Netaxis IT Solutions (P) Ltd | Chennai, Tamil Nadu",
+      period: "2023",
+      description: "During my trainee period, I built a strong foundation in JavaScript and also learned jQuery, SCSS, CSS, HTML, PHP, Laravel, and MySQL, which helped me understand full stack development."
     },
     {
-      title: "Junior Developer",
-      company: "WebDev Agency",
-      period: "2019 - 2020",
-      description: "Developed client websites and web applications. Gained experience in multiple frameworks and backend technologies."
+      title: "Junior Full Stack Developer",
+      company: "Netaxis IT Solutions (P) Ltd | Chennai, Tamil Nadu",
+      period: "2023 - 2025",
+      description: "I contributed to different enhancement projects on both the frontend and backend, and developed embed-friendly components using well-structured code."
     }
   ];
 
   const education = [
+     {
+      degree: "Higher Seconday",
+      institution: "John Dewey Matric hr sec school,Villupuram,TamilNadu",
+      year: "2018",
+      type: "Higher Seconday"
+    },
     {
-      degree: "Bachelor of Computer Science",
-      institution: "University of Technology",
-      year: "2019",
+      degree: "Bachelor of Engineering (Computer Science)",
+      institution: "University College of Engineering Villupuram,TamiNadu",
+      year: "2022",
       type: "degree"
     },
-    {
-      degree: "AWS Certified Solutions Architect",
-      institution: "Amazon Web Services",
-      year: "2023",
-      type: "certification"
-    },
-    {
-      degree: "React Developer Certification",
-      institution: "Meta",
-      year: "2022",
-      type: "certification"
-    }
   ];
 
   return (
@@ -166,7 +160,7 @@ const Index = () => {
 
         <div className="text-center z-10 max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight transform transition-all duration-1000 hover:scale-105">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent animate-pulse">Thamizharasan</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-secondary to-accent animate-pulse">Thamizharasan D</span>
           </h1>
           
           {/* Animated Typewriter Tagline */}
@@ -183,31 +177,22 @@ const Index = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-            <Button 
-              size="lg" 
-              className="bg-gradient-to-r from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 transition-all duration-300 transform hover:scale-110 hover:rotate-1 shadow-lg hover:shadow-xl"
-            >
-              <Sparkles className="mr-2 w-4 h-4" />
-              View My Work
-            </Button>
+            <form action="mailto:thamizharasan0307@gmail.com"><Button      className="bg-gradient-to-r from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 transition-all duration-300 transform hover:scale-110 hover:rotate-1 shadow-lg hover:shadow-xl">HIRE ME <span className="px-2"></span></Button></form>
             <Button 
               variant="outline" 
               size="lg"
               className="transition-all duration-300 transform hover:scale-105 hover:-rotate-1 hover:border-primary"
             >
-              Download Resume
+              <a href="https://drive.google.com/file/d/1gB0BlQJtlX1d6hAv2hBSxPzAu9Se44iT/view?usp=drive_link" target="_blank">Download Resume</a>
             </Button>
           </div>
           
           <div className="flex justify-center space-x-6">
-            <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-125 hover:rotate-12">
+            <a href="https://github.com/Thamizh-srt" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-125 hover:rotate-12" target="_blank">
               <Github size={24} />
             </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-125 hover:-rotate-12">
+            <a href="https://www.linkedin.com/in/thamizharasan-d-419b24227" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-125 hover:-rotate-12" target="_blank">
               <Linkedin size={24} />
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-all duration-300 transform hover:scale-125 hover:rotate-12">
-              <Mail size={24} />
             </a>
           </div>
         </div>
@@ -223,10 +208,16 @@ const Index = () => {
           <h2 className="text-4xl font-bold text-foreground mb-8 transform transition-all duration-500 hover:scale-105">
             About <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary animate-pulse">Me</span>
           </h2>
-          <p className="text-lg text-muted-foreground leading-relaxed">
-            I'm a passionate full-stack developer with over 5 years of experience creating digital solutions that make a difference. 
-            I specialize in modern web technologies and love turning complex problems into simple, beautiful designs.
+          <p 
+          className="text-lg text-muted-foreground leading-relaxed mb-3 text-center">
+            A passionate Full Stack Developer with 2+ years of hands-on experience in designing, developing, and maintaining dynamic web applications. Skilled in building responsive, user-friendly, and high-performance websites with strong cross-browser compatibility and smooth runtime performance.
           </p>
+          <p className="text-lg text-muted-foreground leading-relaxed mb-3 text-center">
+            Experienced in the design, development, testing, and optimization of full stack systems. Proficient in PHP, Laravel, JavaScript, jQuery, AngularJS, React.js, and MySQL, with a growing interest in modern tools like TypeScript and Tailwind CSS. Strong focus on integrating robust backend systems with interactive frontends, delivering clean, scalable code and intuitive user interfaces.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-3 text-center">
+            Seeking an opportunity to join a full stack development team to extend my expertise while working with experienced web development teams.
+            </p>
         </div>
       </section>
 
@@ -241,7 +232,7 @@ const Index = () => {
               <Card key={skill.name} className="bg-card/80 border-border hover:border-primary/50 transition-all duration-500 transform hover:scale-110 hover:rotate-2 animate-fade-in group" style={{animationDelay: `${index * 100}ms`}}>
                 <CardContent className="p-6 text-center">
                   <div className={`w-12 h-12 ${skill.color} rounded-lg mx-auto mb-4 flex items-center justify-center transform transition-all duration-300 group-hover:scale-125 group-hover:rotate-12`}>
-                    <span className="text-2xl">{skill.icon}</span>
+                    <img src={skill.icon} alt="" />
                   </div>
                   <h3 className="text-foreground font-semibold mb-2 transform transition-all duration-300 group-hover:text-primary">{skill.name}</h3>
                   <Badge variant="secondary" className="group-hover:bg-primary/20 group-hover:text-primary transition-all duration-300">
@@ -265,7 +256,7 @@ const Index = () => {
               <Card key={project.title} className="bg-card/80 border-border hover:border-primary/50 transition-all duration-500 transform hover:scale-105 hover:rotate-1 animate-fade-in overflow-hidden group" style={{animationDelay: `${index * 150}ms`}}>
                 <div className="h-48 bg-gradient-to-br from-muted to-muted-foreground/20 relative overflow-hidden">
                   <img 
-                    src={`https://images.unsplash.com/${project.image}?w=500&h=300&fit=crop`}
+                    src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover opacity-80 transition-all duration-500 group-hover:scale-110 group-hover:opacity-100"
                   />
@@ -287,10 +278,6 @@ const Index = () => {
                     <Button variant="outline" size="sm" className="hover:bg-muted hover:border-primary hover:text-primary transition-all duration-300 transform hover:scale-105">
                       <ExternalLink size={16} className="mr-2" />
                       Live Demo
-                    </Button>
-                    <Button variant="outline" size="sm" className="hover:bg-muted hover:border-secondary hover:text-secondary transition-all duration-300 transform hover:scale-105">
-                      <Github size={16} className="mr-2" />
-                      Code
                     </Button>
                   </div>
                 </CardContent>
@@ -339,8 +326,8 @@ const Index = () => {
               <Card key={item.degree} className="bg-card/80 border-border hover:border-primary/50 transition-all duration-500 transform hover:scale-105 hover:rotate-1 animate-fade-in group" style={{animationDelay: `${index * 150}ms`}}>
                 <CardContent className="p-6">
                   <div className="flex items-start space-x-4">
-                    <div className={`p-3 rounded-lg ${item.type === 'degree' ? 'bg-primary/20' : 'bg-secondary/20'} transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12`}>
-                      <Award className={`${item.type === 'degree' ? 'text-primary' : 'text-secondary'}`} size={24} />
+                    <div className={`p-3 rounded-lg bg-primary/20 transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12`}>
+                      <Award className={'text-primary'} size={24} />
                     </div>
                     <div className="flex-1">
                       <h3 className="text-foreground font-semibold mb-2 group-hover:text-primary transition-colors duration-300">{item.degree}</h3>
@@ -379,73 +366,30 @@ const Index = () => {
                   </div>
                   <div>
                     <p className="text-foreground font-semibold group-hover:text-primary transition-colors duration-300">Email</p>
-                    <p className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">alex.johnson@email.com</p>
+                    <p className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">thamizharasan0307@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4 group">
-                  <div className="p-3 bg-secondary/20 rounded-lg transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
-                    <Phone className="text-secondary" size={20} />
+                  <div className="p-3 bg-primary/20 rounded-lg transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                    <Phone className="text-primary" size={20} />
                   </div>
                   <div>
                     <p className="text-foreground font-semibold group-hover:text-secondary transition-colors duration-300">Phone</p>
-                    <p className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">+1 (555) 123-4567</p>
+                    <p className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">9994176539</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4 group">
-                  <div className="p-3 bg-accent/20 rounded-lg transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
-                    <MapPin className="text-accent" size={20} />
+                  <div className="p-3 bg-primary/20 rounded-lg transform transition-all duration-300 group-hover:scale-110 group-hover:rotate-12">
+                    <MapPin className="text-primary" size={20} />
                   </div>
                   <div>
                     <p className="text-foreground font-semibold group-hover:text-accent transition-colors duration-300">Location</p>
-                    <p className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">San Francisco, CA</p>
+                    <p className="text-muted-foreground group-hover:text-foreground transition-colors duration-300">Chennai</p>
                   </div>
                 </div>
               </div>
             </div>
-            <Card className="bg-card/80 border-border transform transition-all duration-500 hover:scale-105">
-              <CardContent className="p-8">
-                <form onSubmit={handleSubmit} className="space-y-6">
-                  <div>
-                    <Label htmlFor="name" className="text-foreground">Name</Label>
-                    <Input
-                      id="name"
-                      value={formData.name}
-                      onChange={(e) => setFormData({...formData, name: e.target.value})}
-                      className="bg-background border-border text-foreground mt-2 focus:border-primary transition-colors duration-300"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="email" className="text-foreground">Email</Label>
-                    <Input
-                      id="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={(e) => setFormData({...formData, email: e.target.value})}
-                      className="bg-background border-border text-foreground mt-2 focus:border-primary transition-colors duration-300"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <Label htmlFor="message" className="text-foreground">Message</Label>
-                    <Textarea
-                      id="message"
-                      value={formData.message}
-                      onChange={(e) => setFormData({...formData, message: e.target.value})}
-                      className="bg-background border-border text-foreground mt-2 min-h-[120px] focus:border-primary transition-colors duration-300"
-                      required
-                    />
-                  </div>
-                  <Button 
-                    type="submit" 
-                    className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary/80 hover:to-secondary/80 transition-all duration-300 transform hover:scale-105"
-                  >
-                    <Sparkles className="mr-2 w-4 h-4" />
-                    Send Message
-                  </Button>
-                </form>
-              </CardContent>
-            </Card>
+
           </div>
         </div>
       </section>
@@ -454,7 +398,7 @@ const Index = () => {
       <footer className="py-8 px-4 border-t border-border bg-muted/30">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-muted-foreground hover:text-foreground transition-colors duration-300">
-            © 2024 Thamizharasan. Built with passion and lots of coffee ☕
+            © 2025 Thamizharasan. Built with passion and lots of ❤️
           </p>
         </div>
       </footer>

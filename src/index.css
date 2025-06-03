@@ -119,3 +119,10 @@
     transform: scale(1.02);
   }
 }
+
+.text-center{
+  text-align: justify;
+}
+.to-accent{
+  --tw-gradient-to :hsl(210deg 2.23% 61.25%) var(--tw-gradient-to-position)
+}
