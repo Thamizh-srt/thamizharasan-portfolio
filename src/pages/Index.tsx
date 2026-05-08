@@ -45,21 +45,47 @@ const Index = () => {
   };
 
   const skills = [
+    { name: "React.js", level: "Expert", color: "bg-foreground", icon: "./images/react.png" },
+    { name: "Vue.js", level: "Expert", color: "bg-foreground", icon: "./images/vuejs.png" },
+    { name: "Node js", level: "Expert", color: "bg-foreground", icon: "./images/Node.js_logo.svg" },
+    { name: "Expressjs", level: "Expert", color: "bg-foreground", icon: "./images/expressjs.png" },
+    { name: "PostgreSql", level: "Advanced", color: "bg-foreground", icon: "./images/postgresql.jpg" },
+    { name: "Laravel", level: "Advanced", color: "bg-foreground", icon: "./images/laravel.png" },
+    { name: "Php", level: "Advanced", color: "bg-foreground", icon: "./images/php.png" },
+    { name: "Livewire", level: "Advanced", color: "bg-foreground", icon: "./images/laravel-livewire.avif" },
+    { name: "MySQL", level: "Advanced", color: "bg-foreground", icon: "./images/mysql.svg" },
     { name: "HTML5", level: "Expert", color: "bg-foreground", icon: "./images/html.png" },
     { name: "Css", level: "Expert", color: "bg-foreground", icon: "./images/css.png" },
     { name: "SCSS", level: "Expert", color: "bg-foreground", icon: "./images/sass.svg" },
     { name: "JavaScript", level: "Expert", color: "bg-foreground", icon: "./images/javascript.png" },
-    { name: "Php", level: "Advanced", color: "bg-foreground", icon: "./images/php.png" },
-    { name: "Laravel", level: "Advanced", color: "bg-foreground", icon: "./images/laravel.png" },
     { name: "Bootstrap", level: "Expert", color: "bg-foreground", icon: "./images/bootstrap.png" },
     { name: "jQuery", level: "Expert", color: "bg-foreground", icon: "./images/jquery.svg" },
     { name: "Angular JS", level: "Expert", color: "bg-foreground", icon: "./images/angularjs.svg" },
-    { name: "MySQL", level: "Advanced", color: "bg-foreground", icon: "./images/mysql.svg" },
     { name: "Tailwind CSS", level: "Intermediate", color: "bg-foreground", icon: "./images/tailwind.svg" },
-    { name: "React.js", level: "Intermediate", color: "bg-foreground", icon: "./images/react.png" }
   ];
 
   const projects = [
+    {
+      title: "ByPrabareddy",
+      description: "An E-commerce platform with order,payment and shipping modules included with microservice flow, handles more than 300+ users and 500+ transactions using Vue.js and Microservices (Laravel backend)",
+      tech: ["Vue.js","Microservices","Php", "Laravel", "Bootstrap","MySQL","Razorpay Integration"],
+      demo: "https://byprabareddy.com",
+      image: "./images/byprabareddy.png"
+    },
+    {
+      title: "Trichella ERP",
+      description: "Implemented role-based access control (RBAC) and real-time data sync across organisations via REST APIs — enabling secure, concurrent access for admin, warehouse, and pharmacy roles.Built GRN processing, inward/outward flow tracking, and indent management modules that eliminated manual procurement errors and streamlined purchasing operations end-to-end.Architected a microservices-style system serving 500+ users and 400+ transactions with 150+ inventory SKUs across multi-warehouse and multi-organisation included.",
+      tech: ["Livewire","JS", "Php", "Laravel", "Bootstrap","MySQL","Razorpay Integration"],
+      demo: "https://erp.trichella.com",
+      image: "./images/erptrichella.png"
+    },
+    {
+      title: "Trichella",
+      description: "A complete E-commerce platform with end-to-end modules, serving 1000+ users and 1500+ transactions using JS frontend, Laravel.",
+      tech: ["JS", "Php", "Laravel", "SCSS","MySQL","Razorpay Integration"],
+      demo: "https://trichella.com",
+      image: "./images/trichella.png"
+    },
     {
       title: "Sitespedia",
       description: "Developed a task management platform that helps users stay organized with intelligent checklists, reminders, and productivity- focused features.",
@@ -67,35 +93,20 @@ const Index = () => {
       demo: "https://sitespedia.com",
       image: "./images/sitespedia.png"
     },
-    {
-      title: "Memorial",
-      description: "A virtual space to honor the memories of a loved one.A web platform that allows users to create personalized online memorials for loved ones.",
-      tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
-      demo: "https://memorial.website",
-      image: "./images/memorial.png"
-    },
-    {
-      title: "Commentslink",
-      description: "Global comment system that improves discussion on websites and connects conversations across the web.",
-      tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
-      demo: "https://comments.link",
-      image: "./images/commentslink.png"
-    },
-    {
-      title: "Timeline",
-      description: "Timeline application allowing for chronological event display Built a timeline app where users can add detailed events, displayed in the order they occurred.",
-      tech: ["JS", "Php", "Laravel", "SCSS","jQuery","MySQL"],
-      demo: "https://timeline.page",
-      image: "./images/timeline.png"
-    }
   ];
 
   const experiences = [
     {
-      title: "Freelance Web Developer",
-      company: "Technest India Solution",
-      period: "2022 - 2023",
-      description: "I built responsive web applications using React.js, and styled them with Bootstrap. I also added login and registration features by connecting with mock APIs."
+      title: "Full Stack Developer",
+      company: "Praba's VCare Health Clinic (P) Ltd | Chennai, Tamil Nadu",
+      period: "2025 - present",
+      description: "Built a full-stack e-commerce + ERP platform from the ground up for a healthcare brand — handling prescription-based ordering, multi-warehouse inventory, and automated procurement workflows.Architected a microservices-style system serving 500+ users and 400+ transactions with 150+ inventory SKUs across multi-warehouse and multi-organisation workflows, using Vue.js frontend, Laravel/PHP backend, and MySQL."
+    },
+    {
+      title: "Junior Full Stack Developer",
+      company: "Netaxis IT Solutions (P) Ltd | Chennai, Tamil Nadu",
+      period: "2023 - 2025",
+      description: "I contributed to different enhancement projects on both the frontend and backend, and developed embed-friendly components using well-structured code."
     },
     {
       title: "Full Stack Developer Trainee",
@@ -103,12 +114,7 @@ const Index = () => {
       period: "2023",
       description: "During my trainee period, I built a strong foundation in JavaScript and also learned jQuery, SCSS, CSS, HTML, PHP, Laravel, and MySQL, which helped me understand full stack development."
     },
-    {
-      title: "Junior Full Stack Developer",
-      company: "Netaxis IT Solutions (P) Ltd | Chennai, Tamil Nadu",
-      period: "2023 - 2025",
-      description: "I contributed to different enhancement projects on both the frontend and backend, and developed embed-friendly components using well-structured code."
-    }
+  
   ];
 
   const education = [
@@ -172,8 +178,11 @@ const Index = () => {
           </div>
           
           <p className="text-lg text-muted-foreground mb-12 max-w-2xl mx-auto leading-relaxed transform transition-all duration-700 hover:text-foreground">
-            Passionate about creating exceptional digital experiences through clean code and innovative design. 
-            I transform ideas into scalable, user-friendly applications that make a difference.
+            Full Stack Developer with 3 years of experience in full lifecycle web application development and maintenance.
+Proven track record of reducing order processing time by 70% through automated payment capturing and shipping
+workflows, and building scalable e-commerce platforms with integrated ERP systems handling 500+ users. Skilled
+in Vue.js, Laravel, PHP, MySQL, and microservices architecture; known for delivering user-focused applications
+with healthcare compliance expertise.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -183,7 +192,7 @@ const Index = () => {
               size="lg"
               className="transition-all duration-300 transform hover:scale-105 hover:-rotate-1 hover:border-primary"
             >
-              <a href="https://drive.google.com/file/d/1mi3LxO7gs0niaJYXXIF6gu3QnMKvUtbk/view?usp=drive_link" target="_blank">Download Resume</a>
+              <a href="/resume/Thamizharasan_full_stack_developer.pdf" target="_blank">Download Resume</a>
             </Button>
           </div>
           
@@ -208,16 +217,15 @@ const Index = () => {
           <h2 className="text-4xl font-bold text-foreground mb-8 transform transition-all duration-500 hover:scale-105">
             About <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary animate-pulse">Me</span>
           </h2>
-          <p 
-          className="text-lg text-muted-foreground leading-relaxed mb-3 text-center">
-            A passionate Full Stack Developer with 2+ years of hands-on experience in designing, developing, and maintaining dynamic web applications. Skilled in building responsive, user-friendly, and high-performance websites with strong cross-browser compatibility and smooth runtime performance.
-          </p>
           <p className="text-lg text-muted-foreground leading-relaxed mb-3 text-center">
-            Experienced in the design, development, testing, and optimization of full stack systems. Proficient in PHP, Laravel, JavaScript, jQuery, AngularJS, React.js, and MySQL, with a growing interest in modern tools like TypeScript and Tailwind CSS. Strong focus on integrating robust backend systems with interactive frontends, delivering clean, scalable code and intuitive user interfaces.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed mb-3 text-center">
-            Seeking an opportunity to join a full stack development team to extend my expertise while working with experienced web development teams.
-            </p>
+            I ship full-stack web applications that handle real users, real money, and real deadlines — and keep running after launch.Currently building a production e-commerce + ERP platform at Praba's VCare Health Clinic Pvt Ltd — serving 500+ users, processing 400+ transactions, and managing 150+ inventory items across multi-warehouse workflows.
+          </p>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-3 text-center">
+            I integrated Razorpay + Bluedart with Laravel Jobs & Queues and cut order processing time by 70%. I also led end-to-end deployment, DNS configuration, and optimised the app to 99.9% uptime under healthcare compliance constraints.
+        </p>
+        <p className="text-lg text-muted-foreground leading-relaxed mb-3 text-center">
+            Before that, I spent 2+ years at Netaxis IT Solutions building 3 live production platforms from scratch — a global comment & poll embedding system, a block-based task management SaaS, and a virtual memorial platform — each shipped within deadline and still serving users today.
+        </p>
         </div>
       </section>
 
